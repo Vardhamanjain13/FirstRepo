@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Nerko One', cursive;
+}
+
+
+.header{
+	background-image: linear-gradient(to right,red,blue,cyan,green);
+	padding: 80px;
+	text-align: center;
+	font-size: 30px;
+	color: #edebeb;
+
+}
+
+.navbar{
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar a:hover{
+	color: white;
+	background-color: black;
+	transition: 0.2s;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+.navbar a.right{
+	float: right;
+}
+
+.image {
+  background-image: url("image/hrrr.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.text{
+	padding: 200px;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.icons a{
+	height: 100px;
+	width: 100px;
+	background-color: #f5f6fa;
+	border-radius: 50px;
+	text-align: center;
+	margin-right: 80px;
+	line-height: 120px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+
+
+}
+
+a i{
+	transition: all 0.3s linear;
+
+}
+
+a:hover i{
+	transform: scale(1.4);
+}
+
